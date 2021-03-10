@@ -19,6 +19,10 @@ complete move therefore consists of placing a piece, then rotating/flipping.
 ## Strategy
 Allowing quadrants to be flipped/rotated introduces significant complexity and your AI agent will need to contend with this high branching complexity. Since quadrants can be flipped/rotated, blocking an opponent's row is not as easy as simply placing an adjacent piece. A good AI agent might consider balancing seeking to win with preventing their opponent from achieving the same.
 
+---
+
+# Navigate through the scripts
+
     src  
     |  --- autoplay ( Autoplays games; can be ignored) 
     | --- boardgame (Package for implementing boardgames, logging, GUI, and server TCP protocol, can be ignored for this project)
