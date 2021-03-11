@@ -1,6 +1,6 @@
 # pentago_twist
 
-!()[https://github.com/SaminYeasar/pentago_twist/blob/main/image/game.gif]
+![](https://github.com/SaminYeasar/pentago_twist/blob/main/image/game.gif)
 
 
 Pentago-Twist falls into the Moku family of games. Other popular games in this category include Tic-Tac-Toe and Connect-4, although Pentago-Twist has significantly more complexity. The biggest difference in
