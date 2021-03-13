@@ -225,7 +225,7 @@ public class PentagoBoardPanel extends BoardPanel implements MouseListener, Mous
 
     private void completeMove(MouseEvent e) {
         Integer secondQuad = findQuadSelection(e);
-        if (secondQuad == null || secondQuad.equals(quadSelection)) { return; }
+        if (secondQuad == null) { return; }
         PentagoBoardState pbs = (PentagoBoardState) getCurrentBoard().getBoardState();
         PentagoMove move = new PentagoMove(pieceSelection, quadSelection, secondQuad, pbs.getTurnPlayer());
         listener.moveEntered(move);
