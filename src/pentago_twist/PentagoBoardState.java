@@ -138,7 +138,7 @@ public class PentagoBoardState extends BoardState {
 //                            legalMoves.add(new PentagoMove(i, j, k, l, turnPlayer));
 //                        }
 //                    }
-                    for (int k = 0; k < NUM_QUADS - 1; k++) { // Iterate through valid moves for rotate/flip
+                    for (int k = 0; k < NUM_QUADS; k++) { // Iterate through valid moves for rotate/flip
                         for (int l = 0; l < 2; l++) {
                             legalMoves.add(new PentagoMove(i, j, k, l, turnPlayer));
                         }
