@@ -86,7 +86,7 @@ public class PentagoBoardState extends BoardState {
         this.turnNumber = pbs.turnNumber;
     }
 
-    Piece[][] getBoard() { return this.board; }
+    public Piece[][] getBoard() { return this.board; }
 
     @Override
     public Object clone() {
