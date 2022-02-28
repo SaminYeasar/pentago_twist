@@ -1,0 +1,30 @@
+# Server version 0.08 running on localhost:8123
+# Game ID: 13
+# Board class: pentago_twist.PentagoBoard
+# Timeout: 300000
+# First Move Timeout: 30000
+# Date: Sun Apr 11 17:27:22 EDT 2021
+# Player 1: Player-0, 'Human', running on localhost
+# Player 2: Player-1, 'Human', running on localhost
+START Player-0 Human
+START Player-1 Human
+0 1 0 0 0
+0 1 0 0 1
+0 1 0 0 0
+0 1 0 0 1
+1 1 0 0 0
+0 2 0 0 1
+2 0 0 0 0
+0 2 0 0 1
+2 0 0 0 0
+1 3 1 1 1
+2 4 1 1 0
+0 4 1 1 1
+2 5 1 1 0
+1 4 1 1 1
+1 3 1 1 0
+0 3 1 1 1
+2 3 1 1 0
+0 5 1 1 1
+GAMEOVER WINNER 1
+# Game ended: Sun Apr 11 17:28:44 EDT 2021

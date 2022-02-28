@@ -1,7 +1,5 @@
 package boardgame;
 
-import boardgame.BoardState;
-
 /**
  * Base class for a board game player. Do not modify this class, extend it
  * instead. Override the chooseMove() method to pick moves to play.

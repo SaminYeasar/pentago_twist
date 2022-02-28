@@ -2,8 +2,13 @@ package student_player;
 
 import boardgame.Move;
 
+import pentago_twist.PentagoMove;
 import pentago_twist.PentagoPlayer;
 import pentago_twist.PentagoBoardState;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 /** A player file submitted by a student. */
 public class StudentPlayer extends PentagoPlayer {
@@ -14,7 +19,7 @@ public class StudentPlayer extends PentagoPlayer {
      * associate you with your agent. The constructor should do nothing else.
      */
     public StudentPlayer() {
-        super("xxxxxxxxx");
+        super("260849921");
     }
 
     /**
@@ -26,11 +31,17 @@ public class StudentPlayer extends PentagoPlayer {
         // You probably will make separate functions in MyTools.
         // For example, maybe you'll need to load some pre-processed best opening
         // strategies...
-        MyTools.getSomething();
-
+        //MyTools.getSomething();
+        long startTime = System.currentTimeMillis();
+        int time=1990;
         // Is random the best you can do?
-        Move myMove = boardState.getRandomMove();
-
+        ArrayList<PentagoMove> moves=boardState.getAllLegalMoves();
+        if (moves.size()==1){
+            return moves.get(0);
+        }
+        List<Integer> Codedmoves=MoveCoder.CodeMoveArrayList(moves);
+        PentagoMove myMove=MoveCoder.DeCodeMove(MCTree.getbestmove(time - System.currentTimeMillis() + startTime,Codedmoves,boardState));
+        //System.out.print(myMove.toPrettyString());
         // Return your move to be processed by the server.
         return myMove;
     }

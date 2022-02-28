@@ -1,0 +1,11 @@
+# Server version 0.08 running on localhost:8123
+# Game ID: 353
+# Board class: pentago_twist.PentagoBoard
+# Timeout: 20000
+# First Move Timeout: 30000
+# Date: Tue Apr 13 23:49:30 EDT 2021
+# Player 1: Player-0, 'RandomPlayer', running on localhost
+# Player 2: Player-1, '260849921', running on localhost
+START Player-0 RandomPlayer
+START Player-1 260849921
+1 0 2 0 0

@@ -60,7 +60,7 @@ public class PentagoBoardState extends BoardState {
             }
         }
 
-        rand = new Random(System.currentTimeMillis());
+        rand = new Random(2019);
         winner = Board.NOBODY;
         turnPlayer = FIRST_PLAYER;
         turnNumber = 0;
@@ -80,7 +80,7 @@ public class PentagoBoardState extends BoardState {
             }
         }
 
-        rand = new Random(System.currentTimeMillis());
+        rand = new Random(2019);
         this.winner = pbs.winner;
         this.turnPlayer = pbs.turnPlayer;
         this.turnNumber = pbs.turnNumber;

@@ -1,0 +1,12 @@
+# Server version 0.08 running on 192.168.2.35:8123
+# Game ID: 14
+# Board class: pentago_twist.PentagoBoard
+# Timeout: 300000
+# First Move Timeout: 30000
+# Date: Sun Apr 11 17:29:00 EDT 2021
+# Player 1: Player-0, 'Human', running on 192.168.2.35
+# Player 2: Player-1, 'Human', running on 192.168.2.35
+START Player-0 Human
+START Player-1 Human
+GAMEOVER ILLEGAL MOVE: Player 0, Move: (2, 1), R/F: (2, 2) WINNER 1
+# Game ended: Sun Apr 11 17:29:04 EDT 2021

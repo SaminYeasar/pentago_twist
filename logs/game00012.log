@@ -1,0 +1,13 @@
+# Server version 0.08 running on localhost:8123
+# Game ID: 12
+# Board class: pentago_twist.PentagoBoard
+# Timeout: 300000
+# First Move Timeout: 30000
+# Date: Sun Apr 11 17:26:23 EDT 2021
+# Player 1: Player-0, 'Human', running on localhost
+# Player 2: Player-1, 'Human', running on localhost
+START Player-0 Human
+START Player-1 Human
+2 2 1 0 0
+GAMEOVER ILLEGAL MOVE: Player 1, Move: (5, 2), R/F: (2, 2) WINNER 0
+# Game ended: Sun Apr 11 17:27:00 EDT 2021
